@@ -1,8 +1,12 @@
 body {
     margin: 0;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     background-color: white;
     color: black;
+}
+
+section.header {
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 header {
@@ -30,3 +34,19 @@ main {
     margin: 30px auto;
 }
 
+section {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: white;
+    color:darkgray;
+    text-align: center;
+    padding: 10px 60px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
