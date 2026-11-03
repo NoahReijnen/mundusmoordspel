@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    padding: 20px 60px;
+    text-align: center;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 10px 60px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+main {
+    padding: 20px 60px;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
