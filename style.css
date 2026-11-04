@@ -10,23 +10,43 @@ main h1, main h2, main h3, main h4, main h5, main h6 {
 }
 
 header {
-    background-color: navy;
-    color: white;
+    background-color: white;
+    color: #2A368E;
+    font-family: 'Nosifer';
     padding: 20px 60px;
     text-align: center;
 }
 
 nav {
-    background-color: lightblue;
+    background-color: lightgray;
+    color: black;
     padding: 10px 60px;
+    border-inline-start: 1px solid navy;
+    border-inline-end: 1px solid navy;
+    font-family: 'Merriweather Sans', sans-serif;
     text-align: center;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a + a {
+    border-left: 5px solid gray;
+    padding-left: 50px;
+}
+
 
 main {
     padding: 20px 60px;
