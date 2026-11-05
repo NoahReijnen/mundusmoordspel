@@ -18,11 +18,11 @@ header {
 }
 
 nav {
-    background-color: lightgray;
+    background-color: #B2B3B6;
     color: black;
     padding: 10px 60px;
-    border-inline-start: 1px solid navy;
-    border-inline-end: 1px solid navy;
+    border-inline-start: 1px solid #2A368E;
+    border-inline-end: 1px solid #2A368E;
     font-family: 'Merriweather Sans', sans-serif;
     text-align: center;
 }
@@ -43,7 +43,7 @@ nav a {
 }
 
 nav a + a {
-    border-left: 5px solid gray;
+    border-left: 5px solid #2A368E;
     padding-left: 50px;
 }
 
@@ -63,10 +63,58 @@ section {
 
 footer {
     background-color: white;
-    color:darkgray;
+    color: #B2B3B6;
     text-align: center;
+    font-size: 12px;
     padding: 10px 60px;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+.leaderboard th {
+    border-collapse: collapse;
+    background-color: #2A368E;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 10px;
+    max-width: auto;
+    text-align: left;
+    
+}
+
+.leaderboard td {
+    border-collapse: collapse;
+    padding: 10px;
+    max-width: auto;
+    text-align: left;
+    
+}
+
+.graveyard {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    text-align: center;
+}
+
+.grave {
+    margin: 0;
+}
+
+.grave img {
+    display: block;
+    width: 100%;
+    max-width: 140px;
+    margin: 0 auto 12px;
+}
+
+.grave figcaption {
+    font-weight: bold;
+}
+
+@media (max-width: 480px) {
+    .graveyard {
+        gap: 12px;
+    }
 }
